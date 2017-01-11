@@ -1,25 +1,23 @@
 .block{
 	padding: auto;
-	margin: 5px;
+	margin: 10px;
 	height: 100px;
 	width: 100px;		
 	font-size: 40px;
 	float: left;
-	background-color: #FFD1A4;	
-	border-color: #9D9D9D;	
-	border-style: solid;
-	border-width: 5px;
+	background-color: #9D9D9D;		
+	border: none;
 	position: relative;
 	border-radius: 10px;	
 }
-.blockin
-{
+.block-in
+{	padding: 0;
+	margin: 0;
 	height: 100px;
 	width: 100px;
-	border-radius: 10px;
-	background-color: #FFD1A4;
 	position: relative;
-	z-index: 2048;
+	z-index: 2;
+	border-radius: 10px;
 }
 .body{
 	padding: 10px;
@@ -34,9 +32,84 @@
 .center{
 	margin: 0px;
 	padding-top: 26.5px;
+	padding-bottom: 26.5px;
 	text-align: center;
-	color:#ffffff;
+	font-weight: 700;
+	
+}
+.btn{
+	font-family: Rockwell Extra Bold;
+	font-size:  20px;
+	border-radius: 20px;
+	display: inline-block;
+	border : none;
+	transition-duration: 0.2s;
+	cursor: pointer;
+
+}
+#startbtn
+{	
+	background-color: #FF8F59;
+	padding: 15px;
+	margin-left : 23%;
+	margin-top : 40px; 
+	color: #FDFFFF;	
+}
+#rebtn{
+	background-color: #5B5B5B;
+	padding: 15px;
+	margin-left : 12%;
+	margin-top : 40px; 
+	color: #FDFFFF;	
+}
+.buttondiv{
+	width: 500px;
 }
 .two{
+	background-color: #FDFFFF;
+	color:#6C6C6C;
+}
+.four{
+	background-color: #FFFFCE;
+	color:#6C6C6C;
+}
+.eight{
 	background-color: #FFD1A4;
+	color:#FDFFFF;
+}
+.sixteen{
+	background-color: #FF9D6F;
+	color:#FDFFFF;
+}
+.thirty{
+	background-color: #FF8040;
+	color:#FDFFFF;
+}
+.sixty{
+	background-color: #F75000;
+	color:#FDFFFF;	
+}
+.onetwenty{
+	background-color: #FFE66F;
+	color:#FDFFFF;
+}
+.twofifty{
+	background-color: #FFDC35;
+	color:#FDFFFF;
+}
+.fivetwelve{
+	background-color: #FFDC35;
+	color:#FDFFFF;
+}
+.tentwenty{
+	background-color: #FFD306;
+	color:#FDFFFF;
+}
+.twentyforty{
+	background-color: #EAC100;
+	color:#FDFFFF;
+}
+.toobig{
+	background-color: #4F4F4F;
+	color:#FDFFFF;
 }
